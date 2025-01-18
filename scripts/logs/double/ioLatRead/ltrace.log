@@ -1,0 +1,12 @@
+% time     seconds  usecs/call     calls      function
+------ ----------- ----------- --------- --------------------
+ 30.41   12.380289          61    200000 _ZNSi4readEPcl
+ 25.77   10.491491          52    200000 _ZNKSt9basic_iosIcSt11char_traitsIcEEcvbEv
+ 12.84    5.229556          52    100000 _ZNKSi6gcountEv
+  9.25    3.765709          75     50000 _ZNSt14basic_ifstreamIcSt11char_traitsIcEEC1EPKcSt13_Ios_Openmode
+  8.80    3.582430          71     50000 _ZNSt14basic_ifstreamIcSt11char_traitsIcEE5closeEv
+  6.47    2.635201          52     50000 _ZNSt14basic_ifstreamIcSt11char_traitsIcEED1Ev
+  6.46    2.631886          52     50000 _ZNKSt9basic_iosIcSt11char_traitsIcEEntEv
+  0.00    0.000102         102         1 atoi
+------ ----------- ----------- --------- --------------------
+100.00   40.716664                700001 total

@@ -1,0 +1,32 @@
+
+ Performance counter stats for './../exec/bothOptimized ./../shell.cpp 50000 50000000':
+
+            256.42 msec task-clock                       #    1.007 CPUs utilized             
+                51      context-switches                 #  198.895 /sec                      
+                17      cpu-migrations                   #   66.298 /sec                      
+             1,116      page-faults                      #    4.352 K/sec                     
+     1,105,780,925      cycles                           #    4.312 GHz                         (42.98%)
+       386,365,647      stalled-cycles-frontend          #   34.94% frontend cycles idle        (43.27%)
+       971,581,342      instructions                     #    0.88  insn per cycle            
+                                                  #    0.40  stalled cycles per insn     (43.63%)
+       206,683,659      branches                         #  806.048 M/sec                       (43.83%)
+        21,511,099      branch-misses                    #   10.41% of all branches             (44.05%)
+       395,560,787      L1-dcache-loads                  #    1.543 G/sec                       (44.09%)
+         7,425,819      L1-dcache-load-misses            #    1.88% of all L1-dcache accesses   (43.78%)
+   <not supported>      LLC-loads                                                             
+   <not supported>      LLC-load-misses                                                       
+       407,433,655      L1-icache-loads                  #    1.589 G/sec                       (43.37%)
+         2,236,447      L1-icache-load-misses            #    0.55% of all L1-icache accesses   (43.87%)
+         3,266,633      dTLB-loads                       #   12.740 M/sec                       (43.31%)
+            10,525      dTLB-load-misses                 #    0.32% of all dTLB cache accesses  (42.73%)
+            32,173      iTLB-loads                       #  125.472 K/sec                       (42.59%)
+           806,974      iTLB-load-misses                 # 2508.23% of all iTLB cache accesses  (43.03%)
+           736,217      L1-dcache-prefetches             #    2.871 M/sec                       (42.88%)
+   <not supported>      L1-dcache-prefetch-misses                                             
+
+       0.254574313 seconds time elapsed
+
+       0.048445000 seconds user
+       0.207621000 seconds sys
+
+

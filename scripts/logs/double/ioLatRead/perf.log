@@ -1,0 +1,32 @@
+
+ Performance counter stats for './../exec/ioLatRead ./../shell.cpp 50000':
+
+            264.93 msec task-clock                       #    0.993 CPUs utilized             
+                48      context-switches                 #  181.178 /sec                      
+                 3      cpu-migrations                   #   11.324 /sec                      
+               128      page-faults                      #  483.142 /sec                      
+     1,149,138,896      cycles                           #    4.337 GHz                         (42.19%)
+       430,527,068      stalled-cycles-frontend          #   37.47% frontend cycles idle        (41.78%)
+       945,052,377      instructions                     #    0.82  insn per cycle            
+                                                  #    0.46  stalled cycles per insn     (41.82%)
+       198,564,371      branches                         #  749.491 M/sec                       (41.83%)
+        20,740,451      branch-misses                    #   10.45% of all branches             (42.17%)
+       392,743,734      L1-dcache-loads                  #    1.482 G/sec                       (42.94%)
+         7,246,217      L1-dcache-load-misses            #    1.85% of all L1-dcache accesses   (43.17%)
+   <not supported>      LLC-loads                                                             
+   <not supported>      LLC-load-misses                                                       
+       404,011,217      L1-icache-loads                  #    1.525 G/sec                       (43.58%)
+         2,236,903      L1-icache-load-misses            #    0.55% of all L1-icache accesses   (43.54%)
+         3,496,082      dTLB-loads                       #   13.196 M/sec                       (43.95%)
+            25,451      dTLB-load-misses                 #    0.73% of all dTLB cache accesses  (43.94%)
+            86,960      iTLB-loads                       #  328.235 K/sec                       (43.52%)
+           817,432      iTLB-load-misses                 #  940.01% of all iTLB cache accesses  (43.17%)
+         1,183,933      L1-dcache-prefetches             #    4.469 M/sec                       (42.40%)
+   <not supported>      L1-dcache-prefetch-misses                                             
+
+       0.266817308 seconds time elapsed
+
+       0.048400000 seconds user
+       0.216793000 seconds sys
+
+

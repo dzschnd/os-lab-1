@@ -1,0 +1,32 @@
+
+ Performance counter stats for './../exec/binSearch 100000000':
+
+          6,663.38 msec task-clock                       #    0.999 CPUs utilized             
+               220      context-switches                 #   33.016 /sec                      
+                36      cpu-migrations                   #    5.403 /sec                      
+             1,103      page-faults                      #  165.532 /sec                      
+    29,754,445,059      cycles                           #    4.465 GHz                         (42.83%)
+       167,724,146      stalled-cycles-frontend          #    0.56% frontend cycles idle        (42.82%)
+   119,084,943,763      instructions                     #    4.00  insn per cycle            
+                                                  #    0.00  stalled cycles per insn     (42.82%)
+    13,712,195,156      branches                         #    2.058 G/sec                       (42.85%)
+         2,902,012      branch-misses                    #    0.02% of all branches             (42.85%)
+    39,276,752,507      L1-dcache-loads                  #    5.894 G/sec                       (42.86%)
+         1,913,348      L1-dcache-load-misses            #    0.00% of all L1-dcache accesses   (42.88%)
+   <not supported>      LLC-loads                                                             
+   <not supported>      LLC-load-misses                                                       
+        53,170,830      L1-icache-loads                  #    7.980 M/sec                       (42.89%)
+            65,734      L1-icache-load-misses            #    0.12% of all L1-icache accesses   (42.89%)
+            43,150      dTLB-loads                       #    6.476 K/sec                       (42.86%)
+             6,322      dTLB-load-misses                 #   14.65% of all dTLB cache accesses  (42.88%)
+               634      iTLB-loads                       #   95.147 /sec                        (42.88%)
+            14,268      iTLB-load-misses                 # 2250.47% of all iTLB cache accesses  (42.86%)
+           354,964      L1-dcache-prefetches             #   53.271 K/sec                       (42.84%)
+   <not supported>      L1-dcache-prefetch-misses                                             
+
+       6.670455431 seconds time elapsed
+
+       6.659930000 seconds user
+       0.004000000 seconds sys
+
+
