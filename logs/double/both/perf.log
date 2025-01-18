@@ -1,32 +1,32 @@
 
- Performance counter stats for './../exec/both ./../shell.cpp 50000 50000000':
+ Performance counter stats for '/home/junayd/Desktop/study-projects/os-lab-1/exec/both /home/junayd/Desktop/study-projects/os-lab-1/shell.cpp 25000 25000000':
 
-          3,575.54 msec task-clock                       #    1.073 CPUs utilized             
-                77      context-switches                 #   21.535 /sec                      
-                 9      cpu-migrations                   #    2.517 /sec                      
-             1,116      page-faults                      #  312.120 /sec                      
-    15,934,073,396      cycles                           #    4.456 GHz                         (42.73%)
-       444,064,789      stalled-cycles-frontend          #    2.79% frontend cycles idle        (42.71%)
-    60,642,265,575      instructions                     #    3.81  insn per cycle            
-                                                  #    0.01  stalled cycles per insn     (42.73%)
-     7,046,667,787      branches                         #    1.971 G/sec                       (42.93%)
-        22,591,400      branch-misses                    #    0.32% of all branches             (42.96%)
-    19,976,045,884      L1-dcache-loads                  #    5.587 G/sec                       (43.00%)
-         6,884,785      L1-dcache-load-misses            #    0.03% of all L1-dcache accesses   (43.05%)
+          1,832.93 msec task-clock                       #    1.078 CPUs utilized             
+               317      context-switches                 #  172.947 /sec                      
+                55      cpu-migrations                   #   30.007 /sec                      
+             1,115      page-faults                      #  608.315 /sec                      
+     8,134,621,577      cycles                           #    4.438 GHz                         (42.76%)
+       269,090,802      stalled-cycles-frontend          #    3.31% frontend cycles idle        (42.77%)
+    30,360,484,064      instructions                     #    3.73  insn per cycle            
+                                                  #    0.01  stalled cycles per insn     (42.85%)
+     3,549,311,877      branches                         #    1.936 G/sec                       (42.91%)
+        13,084,207      branch-misses                    #    0.37% of all branches             (42.80%)
+    10,006,436,471      L1-dcache-loads                  #    5.459 G/sec                       (42.86%)
+         5,053,289      L1-dcache-load-misses            #    0.05% of all L1-dcache accesses   (43.13%)
    <not supported>      LLC-loads                                                             
    <not supported>      LLC-load-misses                                                       
-       444,321,857      L1-icache-loads                  #  124.267 M/sec                       (43.05%)
-         2,441,486      L1-icache-load-misses            #    0.55% of all L1-icache accesses   (43.03%)
-         3,269,960      dTLB-loads                       #  914.535 K/sec                       (43.01%)
-            44,512      dTLB-load-misses                 #    1.36% of all dTLB cache accesses  (42.97%)
-            33,113      iTLB-loads                       #    9.261 K/sec                       (42.89%)
-           818,732      iTLB-load-misses                 # 2472.54% of all iTLB cache accesses  (42.81%)
-           818,150      L1-dcache-prefetches             #  228.818 K/sec                       (42.78%)
+       247,157,806      L1-icache-loads                  #  134.843 M/sec                       (43.25%)
+         1,165,356      L1-icache-load-misses            #    0.47% of all L1-icache accesses   (43.16%)
+         2,087,927      dTLB-loads                       #    1.139 M/sec                       (43.04%)
+            11,707      dTLB-load-misses                 #    0.56% of all dTLB cache accesses  (43.00%)
+            32,493      iTLB-loads                       #   17.727 K/sec                       (42.92%)
+           410,146      iTLB-load-misses                 # 1262.26% of all iTLB cache accesses  (42.93%)
+           702,969      L1-dcache-prefetches             #  383.521 K/sec                       (42.89%)
    <not supported>      L1-dcache-prefetch-misses                                             
 
-       3.332182966 seconds time elapsed
+       1.701039558 seconds time elapsed
 
-       3.362111000 seconds user
-       0.213007000 seconds sys
+       1.713874000 seconds user
+       0.118783000 seconds sys
 
 

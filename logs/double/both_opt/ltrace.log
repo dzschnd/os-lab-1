@@ -1,8 +1,8 @@
 % time     seconds  usecs/call     calls      function
 ------ ----------- ----------- --------- --------------------
-100.00   73.204772    36602386         2 _ZNSt6thread4joinEv
-  0.00    0.000711         355         2 _ZNSt6thread15_M_start_threadESt10unique_ptrINS_6_StateESt14default_deleteIS1_EEPFvvE
-  0.00    0.000144          72         2 _Znwm
-  0.00    0.000138          69         2 __isoc23_strtol
+100.00   36.022684    18011342         2 _ZNSt6thread4joinEv
+  0.00    0.000639         319         2 _ZNSt6thread15_M_start_threadESt10unique_ptrINS_6_StateESt14default_deleteIS1_EEPFvvE
+  0.00    0.000282         141         2 __isoc23_strtol
+  0.00    0.000146          73         2 _Znwm
 ------ ----------- ----------- --------- --------------------
-100.00   73.205765                     8 total
+100.00   36.023751                     8 total

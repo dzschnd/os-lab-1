@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# Script to run benchmark and collect metrics
-
 if [ $# -lt 3 ]; then
     echo "Usage: $0 <output_log_directory> <benchmark_program> [additional_arguments...]"
     exit 1
@@ -26,7 +24,7 @@ if [ ! -x "$BENCHMARK_PROGRAM" ]; then
     exit 1
 fi
 
-USER=junayd  # Get the current username
+USER=junayd 
 
 # Get the number of CPU cores
 NUM_CORES=$(nproc)

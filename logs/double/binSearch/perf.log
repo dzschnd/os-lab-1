@@ -1,32 +1,32 @@
 
- Performance counter stats for './../exec/binSearch 50000000':
+ Performance counter stats for '/home/junayd/Desktop/study-projects/os-lab-1/exec/binSearch 25000000':
 
-          3,375.63 msec task-clock                       #    0.999 CPUs utilized             
-               139      context-switches                 #   41.178 /sec                      
-                30      cpu-migrations                   #    8.887 /sec                      
-             1,103      page-faults                      #  326.754 /sec                      
-    14,900,470,193      cycles                           #    4.414 GHz                         (42.83%)
-        79,947,034      stalled-cycles-frontend          #    0.54% frontend cycles idle        (42.86%)
-    59,551,247,218      instructions                     #    4.00  insn per cycle            
-                                                  #    0.00  stalled cycles per insn     (42.90%)
-     6,857,971,471      branches                         #    2.032 G/sec                       (42.92%)
-         1,781,780      branch-misses                    #    0.03% of all branches             (42.94%)
-    19,650,819,679      L1-dcache-loads                  #    5.821 G/sec                       (42.94%)
-         1,519,618      L1-dcache-load-misses            #    0.01% of all L1-dcache accesses   (42.90%)
+          2,599.62 msec task-clock                       #    0.999 CPUs utilized             
+                48      context-switches                 #   18.464 /sec                      
+                16      cpu-migrations                   #    6.155 /sec                      
+             1,103      page-faults                      #  424.293 /sec                      
+     7,455,496,106      cycles                           #    2.868 GHz                         (42.78%)
+        42,389,950      stalled-cycles-frontend          #    0.57% frontend cycles idle        (42.78%)
+    29,765,749,067      instructions                     #    3.99  insn per cycle            
+                                                  #    0.00  stalled cycles per insn     (42.79%)
+     3,430,857,807      branches                         #    1.320 G/sec                       (42.83%)
+         1,144,330      branch-misses                    #    0.03% of all branches             (42.83%)
+     9,833,179,205      L1-dcache-loads                  #    3.783 G/sec                       (42.88%)
+           828,956      L1-dcache-load-misses            #    0.01% of all L1-dcache accesses   (42.91%)
    <not supported>      LLC-loads                                                             
    <not supported>      LLC-load-misses                                                       
-        31,052,588      L1-icache-loads                  #    9.199 M/sec                       (42.87%)
-            35,343      L1-icache-load-misses            #    0.11% of all L1-icache accesses   (42.84%)
-           126,701      dTLB-loads                       #   37.534 K/sec                       (42.81%)
-             7,383      dTLB-load-misses                 #    5.83% of all dTLB cache accesses  (42.80%)
-               742      iTLB-loads                       #  219.811 /sec                        (42.80%)
-             8,441      iTLB-load-misses                 # 1137.60% of all iTLB cache accesses  (42.80%)
-           285,216      L1-dcache-prefetches             #   84.493 K/sec                       (42.79%)
+        22,678,367      L1-icache-loads                  #    8.724 M/sec                       (42.92%)
+            21,200      L1-icache-load-misses            #    0.09% of all L1-icache accesses   (42.92%)
+            32,112      dTLB-loads                       #   12.353 K/sec                       (42.92%)
+             9,117      dTLB-load-misses                 #   28.39% of all dTLB cache accesses  (42.91%)
+               387      iTLB-loads                       #  148.868 /sec                        (42.87%)
+             8,436      iTLB-load-misses                 # 2179.84% of all iTLB cache accesses  (42.86%)
+           306,925      L1-dcache-prefetches             #  118.065 K/sec                       (42.81%)
    <not supported>      L1-dcache-prefetch-misses                                             
 
-       3.379408925 seconds time elapsed
+       2.602690755 seconds time elapsed
 
-       3.372080000 seconds user
-       0.003997000 seconds sys
+       2.592778000 seconds user
+       0.008002000 seconds sys
 
 
